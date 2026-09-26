@@ -31,7 +31,9 @@ yarn-error.*
 *.pem
 
 # local env files
-.env*.local
+.env              ← ✅ ЖАҢА ҚОСЫЛДЫ
+.env.*            ← ✅ ЖАҢА ҚОСЫЛДЫ
+!.env.example     ← ✅ (міндетті емес)
 
 # typescript
 *.tsbuildinfo
